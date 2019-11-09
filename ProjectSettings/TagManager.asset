@@ -3,7 +3,21 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - input_node
+  - Draggable
+  - PLayer
+  - Pickup
+  - obstacle_moveable
+  - obstacle_immoveable
+  - obstacle_end
+  - obstacle_start
+  - Data
+  - SelectSticker
+  - Welcome
+  - Obstacle
+  - Environment
+  - Portal
   layers:
   - Default
   - TransparentFX
@@ -13,7 +27,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - Player
   - 
   - 
   - 
@@ -40,4 +54,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Fog
+    uniqueID: 3322921073
     locked: 0

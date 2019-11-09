@@ -4,5 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Greybox_Testing/Tutorial_Scene_Greybox/Team Logo.unity
+    guid: 830a53ccc9417a143b33ab5dfc48fbcf
+  - enabled: 1
+    path: Assets/Greybox_Testing/Tutorial_Scene_Greybox/Tutorial_Start.unity
+    guid: f790ee078b1874714b4e57c62b18df32
+  - enabled: 1
+    path: Assets/Greybox_Testing/Tutorial_Scene_Greybox/Tutorial_Level_Final.unity
+    guid: 0724dd60161920b4493e2ced809eed79
+  - enabled: 1
+    path: Assets/Greybox_Testing/Tutorial_Scene_Greybox/Level_A.unity
+    guid: 63fbafafb062f414da91916a4d4c5385
+  - enabled: 1
+    path: Assets/Greybox_Testing/Tutorial_Scene_Greybox/Level_B.unity
+    guid: 42053830a315ee9449586624e03a4d47
+  - enabled: 1
+    path: Assets/Greybox_Testing/Tutorial_Scene_Greybox/Level_C.unity
+    guid: 0b58288eaef501343bef8906dcd1167c
+  - enabled: 1
+    path: Assets/Greybox_Testing/Tutorial_Scene_Greybox/Level_Selection.unity
+    guid: 486a9f54682412a45bf77a70e0293c2b

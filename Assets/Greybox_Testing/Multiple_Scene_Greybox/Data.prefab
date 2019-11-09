@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1020032957576772}
+  m_IsPrefabParent: 1
+--- !u!1 &1020032957576772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4020477655766554}
+  - component: {fileID: 114614596676031220}
+  m_Layer: 0
+  m_Name: Data
+  m_TagString: Data
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4020477655766554
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020032957576772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114614596676031220
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1020032957576772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f04131d350740048b2deb78b08b4c2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam_states: 2
+  obstacle_lock_out: 0
+  tutorial_obstacle_passed: 00
+  tutorial_stickers: 00
+  tutorial_sticker_blank_sprites:
+  - {fileID: 21300000, guid: d0ccd449293cc274b9901ffbd057bece, type: 3}
+  tutorial_sticker_sprites:
+  - {fileID: 21300000, guid: cac5e2505dc911b49ac35d8eb84a743d, type: 3}
+  level_a_obstacle_passed: 0000000000
+  level_a_stickers: 000000000000
+  level_a_sticker_blank_sprites:
+  - {fileID: 21300000, guid: 32682c2eaf187c249a6500bf06dfa142, type: 3}
+  - {fileID: 21300000, guid: 98e8015375df00641a865a39784cfea1, type: 3}
+  - {fileID: 21300000, guid: 5e066e2b054fde74fa736145a4deca5c, type: 3}
+  - {fileID: 21300000, guid: d82c24cc87bd2574a9f6aa40341b2773, type: 3}
+  - {fileID: 21300000, guid: dfb1deeb8a607084ea33ecb3e5264b5d, type: 3}
+  - {fileID: 21300000, guid: 8c87fb671080c6147808475558907b0e, type: 3}
+  level_a_sticker_sprites:
+  - {fileID: 21300000, guid: 56080682d635dd940b1d88c2fdb099fd, type: 3}
+  - {fileID: 21300000, guid: d41cfd7210bb42a4ca85a01cb70b0dbd, type: 3}
+  - {fileID: 21300000, guid: 0c3f12f3da2635a45a09e10c2469d3bc, type: 3}
+  - {fileID: 21300000, guid: c9931ce00eaf43446a1ade2d52c4021d, type: 3}
+  - {fileID: 21300000, guid: 16df0574826dcc54e97ca368295c14c6, type: 3}
+  - {fileID: 21300000, guid: 57b4dbe6effd15743a3fc92553d8423c, type: 3}
+  level_b_obstacle_passed: 0000000000
+  level_b_stickers: 000000000000
+  level_b_sticker_blank_sprites:
+  - {fileID: 21300000, guid: df86ae622aebc204bb97503bd8ea03e2, type: 3}
+  - {fileID: 21300000, guid: e1ce4909afc24904fbcf4f4c5f5d0cb3, type: 3}
+  - {fileID: 21300000, guid: 7ab36c3a18b2e8f4db303564639b8f67, type: 3}
+  - {fileID: 21300000, guid: 46a7c65383250a847bb98e96ccb39ecd, type: 3}
+  - {fileID: 21300000, guid: 1db24fdbda7766a4a834889b14b44c5c, type: 3}
+  - {fileID: 21300000, guid: b2c70d47bc151f04aa0ae806570851d2, type: 3}
+  level_b_sticker_sprites:
+  - {fileID: 21300000, guid: 273ffacf9f22f154ebd104246cf663be, type: 3}
+  - {fileID: 21300000, guid: ed3395d4c2984064d989a070e61803a1, type: 3}
+  - {fileID: 21300000, guid: 238b7b4e5efe380498658d2a4d49fcb5, type: 3}
+  - {fileID: 21300000, guid: 6908d96605d761f4fbd8b774cbf13180, type: 3}
+  - {fileID: 21300000, guid: ecaac2697cbde7c4a8ab1d07ee5a3d7a, type: 3}
+  - {fileID: 21300000, guid: a4fbf3af57ddf0c4784b95743e56de11, type: 3}
+  level_c_obstacle_passed: 0000000000
+  level_c_stickers: 000000000000
+  level_c_sticker_blank_sprites:
+  - {fileID: 21300000, guid: a0851176042084449b45b102456926f8, type: 3}
+  - {fileID: 21300000, guid: ae508685720510a4788c83a4bde99ed9, type: 3}
+  - {fileID: 21300000, guid: 774eb9979e908c94f893a4780a1a9c6a, type: 3}
+  - {fileID: 21300000, guid: 2dca2e21d07797043abee5abe57ec73e, type: 3}
+  - {fileID: 21300000, guid: a4296cc7930085741b120ed1f0ac3977, type: 3}
+  - {fileID: 21300000, guid: bf11e7a1f77431245933b5db451b1549, type: 3}
+  level_c_sticker_sprites:
+  - {fileID: 21300000, guid: 67c0c04ee457ed04a92d77b73495cf9b, type: 3}
+  - {fileID: 21300000, guid: 12a7e5935e2c26048abbff087072704d, type: 3}
+  - {fileID: 21300000, guid: 92e2cc4f3e9c6a049809363eef06735c, type: 3}
+  - {fileID: 21300000, guid: c62a8e1b2148a474aa00be5ef2663069, type: 3}
+  - {fileID: 21300000, guid: 8af8fa3f731f4964891f476165990fad, type: 3}
+  - {fileID: 21300000, guid: f391ad645d6aec549a55b42320c36e59, type: 3}
+  saving_active: 1
